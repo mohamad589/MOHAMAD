@@ -1,0 +1,8 @@
+var sum = 0;
+var f =[];
+for(var i=0; i<=4; i++){
+  f[i] = parseInt(prompt ("Enter Number : "));
+  sum+=f[i];
+  document.write(f[i]+"<br>");
+}
+document.write("Sum of Number : "+sum);

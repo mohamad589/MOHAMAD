@@ -1,0 +1,13 @@
+var f = [];
+var sum =0;
+function x(m){
+    for(var i =0; i<=4; i++){
+        m = parseInt(prompt ("Enter Number : "));
+        f[i] = m;
+        sum+=f[i];
+        document.write(f[i]+"<br>");
+    } 
+  document.write("Sum of Number : "+sum+"<br>");
+  document.write("Avg of Number : "+(sum/5));
+  }
+  x();

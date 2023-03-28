@@ -1,0 +1,14 @@
+var item = [25,77,88];
+function x(){
+   for(var i=0; i<=item.length-1; i++){
+     for(var y=i+1; y<=item.length-1; y++){
+       if(item[i]<item[y]){
+         var temp = item[i];
+         item[i]=item[y];
+         item[y]=temp;
+       }
+     }
+   }
+  document.write(item);
+}
+x();
